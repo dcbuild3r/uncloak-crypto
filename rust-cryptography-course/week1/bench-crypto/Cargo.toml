@@ -1,0 +1,20 @@
+[package]
+author = ["dcbuilder <dcbuilder@proton.me"]
+name = "bench-crypto"
+repository = "https://github.com:dcbuild3r/uncloak-crypto"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+rand = "0.8"
+rsa = "0.7.2"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "bench"
+harness = false
