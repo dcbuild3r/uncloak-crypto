@@ -1,6 +1,6 @@
 [package]
 author = ["dcbuilder <dcbuilder@proton.me"]
-name = "bench-crypto"
+name = "uncloak-crypto"
 repository = "https://github.com:dcbuild3r/uncloak-crypto"
 version = "0.1.0"
 edition = "2021"

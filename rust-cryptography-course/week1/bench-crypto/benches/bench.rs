@@ -5,7 +5,7 @@
 use std::{thread, time};
 
 use criterion::{black_box as bb, criterion_group, criterion_main, Criterion};
-use uncloak_hw::RSA;
+use uncloak_crypto::RSA;
 
 // 260 microseconds on my machine
 fn bench_en(c: &mut Criterion) {
