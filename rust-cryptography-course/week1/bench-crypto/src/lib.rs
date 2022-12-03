@@ -76,7 +76,9 @@ mod test {
         let vigenere = Vigenere::new("key").unwrap();
         let data = "hello world";
         let enc_data = vigenere.encrypt(data.as_bytes()).unwrap();
+        println!("{}", String::from("enc_data: ").as_str(), &enc_data);
         let dec_data = vigenere.decrypt(&enc_data).unwrap();
+
         assert_eq!(data.as_bytes(), &dec_data[..]);
     }
 }
